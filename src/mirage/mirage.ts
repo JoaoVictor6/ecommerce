@@ -3,13 +3,18 @@ import { todoGenerator, userGenerator } from '../faker';
 
 export default function makeServer () {
   createServer({
+    environment: 'development',
     routes() {
-      this.get('/api/reminders', () => ({
+      this.namespace = 'api';
+      this.get('/reminders', () => ({
         reminders: todoGenerator(5),
       })),
-      this.get('/api/users', () => {
+      this.get('/users', () => {
         return userGenerator(10);
       });
+
+      this.namespace = '';
+      this.passthrough();
     },
   });
 }
