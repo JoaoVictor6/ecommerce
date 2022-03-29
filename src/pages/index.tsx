@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { makeServer } from 'src/mirage';
+import { makeServer } from 'src/config/mirage';
 
 const environment = process.env.NODE_ENV;
 if(environment !== 'production') makeServer();
