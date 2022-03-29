@@ -1,8 +1,8 @@
 {
-  "name": "@joaovictor6/next-tjt",
-  "description": "boilerplate with typescript, Jest, and tailwind",
+  "name": "ecommerce",
+  "description": "maybe ecommerce",
   "private": false,
-  "version": "1.0.1",
+  "version": "0.0.1",
   "author": "João <santosjoao.dev@gmail.com>",
   "scripts": {
     "dev": "next dev",
