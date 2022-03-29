@@ -20,6 +20,7 @@
       "@pages/*": ["src/pages/*"],
       "@styles/*": ["src/styles/*"],
       "@shared/*": ["src/shared/*"],
+      "@assets/*": ["src/assets/*"],
       "@/*": ["src/*"]
     }
   },
