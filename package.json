@@ -1,0 +1,44 @@
+{
+  "name": "@joaovictor6/next-tjt",
+  "description": "boilerplate with typescript, Jest, and tailwind",
+  "private": false,
+  "version": "1.0.1",
+  "author": "João <santosjoao.dev@gmail.com>",
+  "scripts": {
+    "dev": "next dev",
+    "lint": "next lint",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest --watch",
+    "test:ci": "jest --ci"
+  },
+  "dependencies": {
+    "miragejs": "^0.1.43",
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^6.1.1",
+    "@next/eslint-plugin-next": "^12.1.2",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "13.5.0",
+    "@types/react": "17.0.38",
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "autoprefixer": "^10.4.4",
+    "babel-jest": "27.4.5",
+    "eslint": "^8.12.0",
+    "eslint-config-next": "latest",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-testing-library": "5.0.1",
+    "husky": "^7.0.4",
+    "jest": "^27.4.5",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23",
+    "typescript": "4.5.4"
+  }
+}
