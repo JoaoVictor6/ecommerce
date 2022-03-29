@@ -46,5 +46,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "eslintIgnore": [
+    "coverage", "dist", "node_modules", "*.js"
+  ]
 }
