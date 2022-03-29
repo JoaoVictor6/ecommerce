@@ -10,7 +10,9 @@ const createJestConfig = nextJest({
 const customJestConfig = {
   moduleNameMapper: {
     '^@modules/(.*)$': '<rootDir>/src/modules/$1',
-    '^@pages/(.*)$': '<rootDir>/src/pages/$1'
+    '^@pages/(.*)$': '<rootDir>/src/pages/$1',
+    '^@shared/(.*)$': '<rootDir>/src/shared/$1',
+    '^@/(.*)$': '<rootDir>/src/$1'
   },
   // Add more setup options before each test is run
   // setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
